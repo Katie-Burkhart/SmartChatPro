@@ -1,0 +1,19 @@
+# Smart Chat Pro (RAG Edition) - Requirements
+# Python 3.10+
+
+streamlit==1.38.0
+openai==1.44.0
+chromadb==0.5.5
+tiktoken==0.7.0
+pypdf==4.2.0
+python-dotenv==1.0.1
+rank-bm25==0.2.2
+pandas==2.2.3
+numpy==1.26.4
+scikit-learn==1.5.2
+# Authentication & database support
+sqlite3-binary
+# For optional JSON/text operations
+uuid
+# Miscellaneous
+requests==2.32.3
