@@ -22,7 +22,6 @@ venv.bak/
 # === Project folders ===
 # (Keep 'data/' ignored if it contains raw data, large files, or generated outputs)
 # Local folders to ignore
-data/
 vectorstore/
 .venv/
 .env
