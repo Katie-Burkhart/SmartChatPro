@@ -1,0 +1,72 @@
+# === Python cache ===
+__pycache__/
+*.py[cod]
+*$py.class
+
+# === Virtual environment ===
+.venv
+.venv/
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# === Environment & secrets ===
+.env
+.env/
+.env.*
+*.secret
+*.key
+
+# === Project folders ===
+# (Keep 'data/' ignored if it contains raw data, large files, or generated outputs)
+# Local folders to ignore
+data/
+vectorstore/
+.venv/
+.env
+.env/
+__pycache__/
+
+# (Keep 'utils/' tracked if it contains useful code — remove this line if you want to include it)
+# utils/
+
+# === Build / packaging ===
+build/
+dist/
+*.egg-info/
+.eggs/
+*.egg
+.installed.cfg
+
+# === Logs and temporary files ===
+*.log
+tmp/
+temp/
+.cache/
+__pycache__/
+
+# === Testing / coverage ===
+.tox/
+.nox/
+.coverage
+coverage.xml
+.pytest_cache/
+htmlcov/
+
+# === IDE / editor settings ===
+.vscode/
+.idea/
+
+# === OS files ===
+.DS_Store
+Thumbs.db
+
+# === Exclude old prototype files ===
+stage1_simple_chat.py
+stage2_with_memory.py
+stage3_with_sessions.py
+stage4_with_auth.py
+stage5_complete.py
+Test.py
