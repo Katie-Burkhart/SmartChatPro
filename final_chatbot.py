@@ -171,7 +171,7 @@ else:
                 st.write(user_input)
 
             tokens = count_tokens(st.session_state.messages)
-            MAX_TOKENS = 100  # you can temporarily set this to 100 for testing (10000)
+            MAX_TOKENS = 10000  # you can temporarily set this to 100 for testing (100)
 
             # --- Token Usage Progress Bar ---
             progress = min(tokens / MAX_TOKENS, 1.0)  # ensure it doesn't exceed 100%
